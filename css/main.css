@@ -1,11 +1,12 @@
-.logo{
-	margin-left: 0;
-
+*{
+	margin-left:auto;
+	margin-right: auto;	
+	font-family: 'Lato', sans-serif;
 }
 
-.logo image{
-	display: flex;
-
+body
+{
+	max-width: 1000px;
 }
 
 .logo-image{
@@ -21,17 +22,17 @@
 
 .header_text{
 	text-align: right;
-
 }
 
 .feature_text{
 	padding-left: 15px;
-
+	font-variant: small-caps;
+	color: #847C7C;
+	font-weight: 300;
 }
 
 .selected_proj{
 	text-align: center;
-
 }
 
 hr, .feature_text{
@@ -48,14 +49,14 @@ hr, .feature_text{
 	}
 	h3{
 		font-size: 150%;
-	}
+	}	
+
 }
 
 @media only screen and (max-width: 767px){
-	.later-logos, .highlight_proj
+	.later-logos
 	{
 		display: none;
-	
 	}
 }
 
@@ -77,5 +78,4 @@ hr, .feature_text{
 .footer .ss-standard {
     vertical-align: middle;
     color: #8793A0; 
-
 }

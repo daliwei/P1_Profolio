@@ -7,50 +7,52 @@
 		<title>Portfolio</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/main.css">
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
 	</head>
 	<body class = "container">
 		<header class = "row header_row">
 			<div class = "col-xs-3 col-sm-2 col-md-1">
 				<img class="img-responsive logo-image" src="img/Seal_of_University_of_California_Berkeley.svg" alt="Logo">
 			</div>
-			<div class = "col-xs-3 col-sm-2 col-md-1" >
-				<img class="img-responsive logo-image" src="img/The_University_of_California_Davis.png" alt="Logo">
-			</div>
-			<div class = "col-sm-2 col-md-1 later-logos">
-				<img class="img-responsive logo-image" src="img/Nevada_Wolf_Pack_Logo.svg" alt="Logo">
-			</div>
-			<div class = "col-sm-2 col-md-1 later-logos" >
-				<img class="img-responsive logo-image" src="img/Texas_Tech_Red_Raiders_Logo.svg" alt="Logo">
-			</div>
-			<div class = "col-xs-6 col-sm-4 col-md-8 header_text">
+			<div class = "col-xs-9 col-sm-10 col-md-11 header_text">
 				<h1>Dali Wei</h1>
-				<h5>Research Engineer | Software Developer | Front-End Learner ... <h5>
+				<h5>Front-End Ninja</h5>
 			</div>
 		</header>
 		<hr>
 		<section class = "row highlight_proj">
 			<div class = "col-xs-12">
-				<img class="img-responsive highlight-img" src="http://placeimg.com/1200/480/arch/grayscale" alt="highlight">
+				<picture>
+					<source media="(min-width: 767px)" srcset="img/Center_2000.jpg 2x, img/Center_1000.jpg">
+					<source media="(min-width: 400px)" srcset="img/Center_1600.jpg 2x, img/Center_800.jpg">
+					<img class="img-responsive highlight-img" src="img/Center_2000.jpg" srcset="img/Center_800.jpg 2x, img/Center_400.jpg 1x" alt="Highlight Picture">
+				</picture>
 			</div>
 		</section>
 		<section class = "row feature_text">
 			<h3>Featured Projects</h3>
 		</section>
 		<section class = "row selected_proj">
-			<div class = "col-xs-12 col-sm-4 col-md-4">
-				<img class="img-responsive highlight-img" src="http://placeimg.com/400/300/arch/grayscale" alt="highlight">
-				<h4>Parallel Microscopic Traffic Simulation</h4>
-				<p></p>
+			<div class = "col-xs-12 col-sm-4">
+				<picture>
+					<img class="img-responsive highlight-img" src="img/Simu_800.jpg" srcset="img/Simu_800.jpg 2x, img/Simu_400.jpg 1x" alt="Traffic Simulation Picture">
+				</picture>
+				<h4>Traffic Simulation</h4>
+				<p>Developing modern traffic simulation platforms to evaluate efficieny of transportation sytesms.</p>
 			</div>
-			<div class = "col-xs-12 col-sm-4 col-md-4">
-				<img class="img-responsive highlight-img" src="http://placeimg.com/400/300/arch/grayscale" alt="highlight">
+			<div class = "col-xs-12 col-sm-4">
+				<picture>
+					<img class="img-responsive highlight-img" src="img/TranSync_800.jpg" srcset="img/TranSync_800.jpg 2x, img/TranSync_400.jpg 1x" alt="TranSync Picture">
+				</picture>
 				<h4>TranSync</h4>
-				<p></p>
+				<p>A state-of-the-practice traffic signal timing software tool.</p>
 			</div>
-			<div class = "col-xs-12 col-sm-4 col-md-4">
-				<img class="img-responsive highlight-img" src="http://placeimg.com/400/300/arch/grayscale" alt="highlight">
+			<div class = "col-xs-12 col-sm-4">
+				<picture>
+					<img class="img-responsive highlight-img" src="img/TransCAD_800.jpg" srcset="img/TransCAD_800.jpg 2x, img/TransCAD_400.jpg 1x" alt="TransCAD Plug-in Picture">
+				</picture>
 				<h4>TransCAD Plug-in</h4>
-				<p></p>
+				<p>A plug-in on TransCAD to evalute transportation evacuation.</p>
 			</div>
 		</section>
 		<footer class="footer">
