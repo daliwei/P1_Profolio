@@ -1,0 +1,1 @@
+The margin properties of hr and feature_text are not formatted in shorthand mode because they are modified from the inherited bootstrap style.
